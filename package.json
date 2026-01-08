@@ -1,0 +1,25 @@
+{
+  "name": "azure-openai-backend",
+  "version": "1.0.0",
+  "description": "Backend API para Azure OpenAI",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/ai-projects": "^1.0.1",
+    "@azure/identity": "^4.13.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "openai": "^6.15.0"
+  }
+}
